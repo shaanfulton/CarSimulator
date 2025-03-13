@@ -1,4 +1,4 @@
-## Overview
+## Car Simulator Overview
 This repository contains an implementation of a simple 2D vehicle simulator that models the motion and control of a car based on its physical parameters.
 
 ### Simulation Object (Car)
@@ -33,4 +33,10 @@ After running the simulation:
 2. Overlay longitudinal and lateral acceleration on separate plots.
 
 ## Dependencies
-This implementation requires NumPy for numerical computations and matplot
+This implementation requires NumPy for numerical computations and Matplotlib for plotting and visualization.
+
+### How to Run
+```bash
+pip install -r requirements.txt
+python car_simulator.py
+```
